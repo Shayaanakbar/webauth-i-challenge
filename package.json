@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Shayaanakbar/webauth-i-challenge#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "express": "^4.17.1",
     "knex": "^0.17.3",
     "knex-migrate": "^1.7.2",
