@@ -19,7 +19,10 @@
   "homepage": "https://github.com/Shayaanakbar/webauth-i-challenge#readme",
   "dependencies": {
     "bcrypt": "^3.0.6",
+    "connect-session-knex": "^1.4.0",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
+    "express-session": "^1.16.1",
     "knex": "^0.17.3",
     "knex-migrate": "^1.7.2",
     "nodemon": "^1.19.1",

@@ -1,6 +1,6 @@
 const db = require('../data/dbConfig')
 
-module.exports = {find, findBy, addUser, findById}
+module.exports = {find, findBy, addUser, destroy, findById}
 
 function find() {
   return db('users')
@@ -20,4 +20,8 @@ function findById(id) {
   return db('users')
     .where({id:id})
     .first()
+}
+
+function destroy () {
+  return db('users')
 }
